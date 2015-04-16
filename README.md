@@ -9,5 +9,7 @@ Written by Eldon Nelson
 
 ## Command Lines for Mentor Questa to Run
 ```shell
-> rm -rf work; qverilog uvmr.sv -R +UVM_TESTNAME=dut_test -c -do "run 100; exit"
+> rm -rf work; qverilog uvmr.sv -R +UVM_TESTNAME=dut_test -c -do "run -all; exit"
 ```
+
+See example output in "output"

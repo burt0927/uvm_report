@@ -1,0 +1,83 @@
+# UVM_INFO @ 0: reporter [RNTST] Running test dut_test...
+# UVM_INFO uvmr.sv(78) @ 0: uvm_test_top [NOTE] EXAMPLE 01 : default calls
+# UVM_INFO uvmr.sv(34) @ 0: uvm_test_top.comp0_h [COMP] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(35) @ 0: uvm_test_top.comp0_h [COMP] UVM_MEDIUM MESSAGE
+# UVM_INFO uvmr.sv(37) @ 0: uvm_test_top.comp0_h [ANNOYING] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(39) @ 0: uvm_test_top.comp0_h [TXN] TXN UVM_MEDIUM MESSAGE
+# UVM_WARNING uvmr.sv(40) @ 0: uvm_test_top.comp0_h [REMINDER] UVM_WARNING MESSAGE
+# UVM_INFO uvmr.sv(34) @ 0: uvm_test_top.comp1_h [COMP] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(35) @ 0: uvm_test_top.comp1_h [COMP] UVM_MEDIUM MESSAGE
+# UVM_INFO uvmr.sv(37) @ 0: uvm_test_top.comp1_h [ANNOYING] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(39) @ 0: uvm_test_top.comp1_h [TXN] TXN UVM_MEDIUM MESSAGE
+# UVM_WARNING uvmr.sv(40) @ 0: uvm_test_top.comp1_h [REMINDER] UVM_WARNING MESSAGE
+# UVM_INFO uvmr.sv(84) @ 1: uvm_test_top [NOTE] EXAMPLE 02 : comp0_h verbosity override to UVM_HIGH
+# UVM_INFO uvmr.sv(34) @ 1: uvm_test_top.comp0_h [COMP] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(35) @ 1: uvm_test_top.comp0_h [COMP] UVM_MEDIUM MESSAGE
+# UVM_INFO uvmr.sv(36) @ 1: uvm_test_top.comp0_h [COMP] UVM_HIGH MESSAGE
+# UVM_INFO uvmr.sv(37) @ 1: uvm_test_top.comp0_h [ANNOYING] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(38) @ 1: uvm_test_top.comp0_h [DEBUG] DBG UVM_HIGH MESSAGE
+# UVM_INFO uvmr.sv(39) @ 1: uvm_test_top.comp0_h [TXN] TXN UVM_MEDIUM MESSAGE
+# UVM_WARNING uvmr.sv(40) @ 1: uvm_test_top.comp0_h [REMINDER] UVM_WARNING MESSAGE
+# UVM_INFO uvmr.sv(90) @ 2: uvm_test_top [NOTE] EXAMPLE 03 : comp0_h severity override UVM_WARNING to UVM_ERROR
+# UVM_INFO uvmr.sv(34) @ 2: uvm_test_top.comp0_h [COMP] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(35) @ 2: uvm_test_top.comp0_h [COMP] UVM_MEDIUM MESSAGE
+# UVM_INFO uvmr.sv(36) @ 2: uvm_test_top.comp0_h [COMP] UVM_HIGH MESSAGE
+# UVM_INFO uvmr.sv(37) @ 2: uvm_test_top.comp0_h [ANNOYING] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(38) @ 2: uvm_test_top.comp0_h [DEBUG] DBG UVM_HIGH MESSAGE
+# UVM_INFO uvmr.sv(39) @ 2: uvm_test_top.comp0_h [TXN] TXN UVM_MEDIUM MESSAGE
+# UVM_ERROR uvmr.sv(40) @ 2: uvm_test_top.comp0_h [REMINDER] UVM_WARNING MESSAGE
+# UVM_INFO uvmr.sv(96) @ 3: uvm_test_top [NOTE] EXAMPLE 04 : comp0_h severity override reset UVM_WARNING
+# UVM_INFO uvmr.sv(34) @ 3: uvm_test_top.comp0_h [COMP] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(35) @ 3: uvm_test_top.comp0_h [COMP] UVM_MEDIUM MESSAGE
+# UVM_INFO uvmr.sv(36) @ 3: uvm_test_top.comp0_h [COMP] UVM_HIGH MESSAGE
+# UVM_INFO uvmr.sv(37) @ 3: uvm_test_top.comp0_h [ANNOYING] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(38) @ 3: uvm_test_top.comp0_h [DEBUG] DBG UVM_HIGH MESSAGE
+# UVM_INFO uvmr.sv(39) @ 3: uvm_test_top.comp0_h [TXN] TXN UVM_MEDIUM MESSAGE
+# UVM_WARNING uvmr.sv(40) @ 3: uvm_test_top.comp0_h [REMINDER] UVM_WARNING MESSAGE
+# UVM_INFO uvmr.sv(102) @ 4: uvm_test_top [NOTE] EXAMPLE 05 : comp0_h banish all ANNOYING ids
+# UVM_INFO uvmr.sv(34) @ 4: uvm_test_top.comp0_h [COMP] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(35) @ 4: uvm_test_top.comp0_h [COMP] UVM_MEDIUM MESSAGE
+# UVM_INFO uvmr.sv(36) @ 4: uvm_test_top.comp0_h [COMP] UVM_HIGH MESSAGE
+# UVM_INFO uvmr.sv(38) @ 4: uvm_test_top.comp0_h [DEBUG] DBG UVM_HIGH MESSAGE
+# UVM_INFO uvmr.sv(39) @ 4: uvm_test_top.comp0_h [TXN] TXN UVM_MEDIUM MESSAGE
+# UVM_WARNING uvmr.sv(40) @ 4: uvm_test_top.comp0_h [REMINDER] UVM_WARNING MESSAGE
+# UVM_INFO uvmr.sv(108) @ 5: uvm_test_top [NOTE] EXAMPLE 06 : comp0_h TXN to file only
+# UVM_INFO uvmr.sv(34) @ 5: uvm_test_top.comp0_h [COMP] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(35) @ 5: uvm_test_top.comp0_h [COMP] UVM_MEDIUM MESSAGE
+# UVM_INFO uvmr.sv(36) @ 5: uvm_test_top.comp0_h [COMP] UVM_HIGH MESSAGE
+# UVM_INFO uvmr.sv(38) @ 5: uvm_test_top.comp0_h [DEBUG] DBG UVM_HIGH MESSAGE
+# UVM_WARNING uvmr.sv(40) @ 5: uvm_test_top.comp0_h [REMINDER] UVM_WARNING MESSAGE
+# UVM_INFO uvmr.sv(115) @ 6: uvm_test_top [NOTE] EXAMPLE 07 : comp0_h TXN to file and display
+# UVM_INFO uvmr.sv(34) @ 6: uvm_test_top.comp0_h [COMP] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(35) @ 6: uvm_test_top.comp0_h [COMP] UVM_MEDIUM MESSAGE
+# UVM_INFO uvmr.sv(36) @ 6: uvm_test_top.comp0_h [COMP] UVM_HIGH MESSAGE
+# UVM_INFO uvmr.sv(38) @ 6: uvm_test_top.comp0_h [DEBUG] DBG UVM_HIGH MESSAGE
+# UVM_INFO uvmr.sv(39) @ 6: uvm_test_top.comp0_h [TXN] TXN UVM_MEDIUM MESSAGE
+# UVM_WARNING uvmr.sv(40) @ 6: uvm_test_top.comp0_h [REMINDER] UVM_WARNING MESSAGE
+# UVM_INFO uvmr.sv(122) @ 7: uvm_test_top [NOTE] EXAMPLE 08 : uvm_top TXN to file only with global uvm_top
+# UVM_INFO uvmr.sv(34) @ 7: uvm_test_top.comp0_h [COMP] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(35) @ 7: uvm_test_top.comp0_h [COMP] UVM_MEDIUM MESSAGE
+# UVM_INFO uvmr.sv(36) @ 7: uvm_test_top.comp0_h [COMP] UVM_HIGH MESSAGE
+# UVM_INFO uvmr.sv(38) @ 7: uvm_test_top.comp0_h [DEBUG] DBG UVM_HIGH MESSAGE
+# UVM_WARNING uvmr.sv(40) @ 7: uvm_test_top.comp0_h [REMINDER] UVM_WARNING MESSAGE
+# UVM_INFO uvmr.sv(34) @ 7: uvm_test_top.comp1_h [COMP] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(35) @ 7: uvm_test_top.comp1_h [COMP] UVM_MEDIUM MESSAGE
+# UVM_INFO uvmr.sv(37) @ 7: uvm_test_top.comp1_h [ANNOYING] UVM_LOW MESSAGE
+# UVM_WARNING uvmr.sv(40) @ 7: uvm_test_top.comp1_h [REMINDER] UVM_WARNING MESSAGE
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   61
+# UVM_WARNING :    9
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# ** Report counts by id
+# [ANNOYING]     6
+# [COMP]    27
+# [DEBUG]     7
+# [NOTE]     8
+# [Questa UVM]     2
+# [REMINDER]    10
+# [RNTST]     1
+# [TXN]    10
