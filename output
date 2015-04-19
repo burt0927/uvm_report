@@ -64,20 +64,161 @@
 # UVM_INFO uvmr.sv(35) @ 7: uvm_test_top.comp1_h [COMP] UVM_MEDIUM MESSAGE
 # UVM_INFO uvmr.sv(37) @ 7: uvm_test_top.comp1_h [ANNOYING] UVM_LOW MESSAGE
 # UVM_WARNING uvmr.sv(40) @ 7: uvm_test_top.comp1_h [REMINDER] UVM_WARNING MESSAGE
+# UVM_INFO uvmr.sv(130) @ 8: uvm_test_top [NOTE] EXAMPLE 09 : comp0_h dump the report server state
+# ----------------------------------------------------------------------
+# report handler state dump
+# 
+# 
+# +-----------------+
+# |   Verbosities   |
+# +-----------------+
+# 
+# max verbosity level =         300
+# *** verbosities by id
+# 
+# *** verbosities by id and severity
+# 
+# +-------------+
+# |   actions   |
+# +-------------+
+# 
+# *** actions by severity
+# UVM_INFO = DISPLAY 
+# UVM_WARNING = DISPLAY 
+# UVM_ERROR = DISPLAY COUNT 
+# UVM_FATAL = DISPLAY EXIT 
+# 
+# *** actions by id
+# [TXN] --> LOG 
+# 
+# *** actions by id and severity
+# UVM_INFO:ANNOYING --> NO ACTION
+# 
+# +-------------+
+# |    files    |
+# +-------------+
+# 
+# default file handle =           0
+# 
+# *** files by severity
+# UVM_INFO =           0
+# UVM_WARNING =           0
+# UVM_ERROR =           0
+# UVM_FATAL =           0
+# 
+# *** files by id
+# id TXN --> -2147483640
+# 
+# *** files by id and severity
+# report server state
+# 
+# +-------------+
+# |   counts    |
+# +-------------+
+# 
+# max quit count =     0
+# quit count =     0
+# UVM_INFO :   62
+# UVM_WARNING :    9
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# ANNOYING :    6
+# COMP :   27
+# DEBUG :    7
+# NOTE :    9
+# Questa UVM :    2
+# REMINDER :   10
+# RNTST :    1
+# TXN :   10
+# ----------------------------------------------------------------------
+# UVM_INFO uvmr.sv(135) @ 9: uvm_test_top [NOTE] EXAMPLE 10 : comp0_h dump the report server state after resetting back to defaults
+# ----------------------------------------------------------------------
+# report handler state dump
+# 
+# 
+# +-----------------+
+# |   Verbosities   |
+# +-----------------+
+# 
+# max verbosity level =         200
+# *** verbosities by id
+# 
+# *** verbosities by id and severity
+# 
+# +-------------+
+# |   actions   |
+# +-------------+
+# 
+# *** actions by severity
+# UVM_INFO = DISPLAY 
+# UVM_WARNING = DISPLAY 
+# UVM_ERROR = DISPLAY COUNT 
+# UVM_FATAL = DISPLAY EXIT 
+# 
+# *** actions by id
+# [TXN] --> LOG 
+# 
+# *** actions by id and severity
+# UVM_INFO:ANNOYING --> NO ACTION
+# 
+# +-------------+
+# |    files    |
+# +-------------+
+# 
+# default file handle =           0
+# 
+# *** files by severity
+# UVM_INFO =           0
+# UVM_WARNING =           0
+# UVM_ERROR =           0
+# UVM_FATAL =           0
+# 
+# *** files by id
+# id TXN --> -2147483640
+# 
+# *** files by id and severity
+# report server state
+# 
+# +-------------+
+# |   counts    |
+# +-------------+
+# 
+# max quit count =     0
+# quit count =     0
+# UVM_INFO :   63
+# UVM_WARNING :    9
+# UVM_ERROR :    1
+# UVM_FATAL :    0
+# ANNOYING :    6
+# COMP :   27
+# DEBUG :    7
+# NOTE :   10
+# Questa UVM :    2
+# REMINDER :   10
+# RNTST :    1
+# TXN :   10
+# ----------------------------------------------------------------------
+# UVM_INFO uvmr.sv(34) @ 9: uvm_test_top.comp0_h [COMP] UVM_LOW MESSAGE
+# UVM_INFO uvmr.sv(35) @ 9: uvm_test_top.comp0_h [COMP] UVM_MEDIUM MESSAGE
+# UVM_WARNING uvmr.sv(40) @ 9: uvm_test_top.comp0_h [REMINDER] UVM_WARNING MESSAGE
 # 
 # --- UVM Report Summary ---
 # 
 # ** Report counts by severity
-# UVM_INFO :   61
-# UVM_WARNING :    9
+# UVM_INFO :   66
+# UVM_WARNING :   10
 # UVM_ERROR :    1
 # UVM_FATAL :    0
 # ** Report counts by id
 # [ANNOYING]     6
-# [COMP]    27
+# [COMP]    29
 # [DEBUG]     7
-# [NOTE]     8
+# [NOTE]    10
 # [Questa UVM]     2
-# [REMINDER]    10
+# [REMINDER]    11
 # [RNTST]     1
-# [TXN]    10
+# [TXN]    11
+# ** Note: $finish    : /cde/cad/tools/mentor/questa/10.3d_3/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 10 ns  Iteration: 97  Instance: /dut
+# End time: 21:11:20 on Apr 18,2015, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
