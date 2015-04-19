@@ -15,7 +15,7 @@
 // UVM_CALL_HOOK
 // UVM_STOP
 
-// default actions per verbosity see uvm_report_object:
+// default actions per display method verbosity see uvm_report_object:
 // UVM_INFO     - UVM_DISPLAY
 // UVM_WARNING  - UVM_DISPLAY
 // UVM_ERROR    - UVM_DISPLAY | UVM_COUNT
@@ -107,14 +107,14 @@ class dut_test extends uvm_test;
         // if you want to break out certain types of messages to a log file
         `uvm_info("NOTE", "EXAMPLE 06 : comp0_h TXN to file only", UVM_MEDIUM)
         comp0_h.set_report_id_action("TXN", UVM_LOG);
-        comp0_h.set_report_id_file_hier("TXN", c0_txn);
+        comp0_h.set_report_id_file("TXN", c0_txn);
         comp0_h.preport();
         #1;
                 
         // if you want to have TXN data in the log as well as in the file
         `uvm_info("NOTE", "EXAMPLE 07 : comp0_h TXN to file and display", UVM_MEDIUM)
         comp0_h.set_report_id_action("TXN", UVM_DISPLAY | UVM_LOG);
-        comp0_h.set_report_id_file_hier("TXN", c0_txn);
+        comp0_h.set_report_id_file("TXN", c0_txn);
         comp0_h.preport();
         #1;
                 
@@ -126,6 +126,18 @@ class dut_test extends uvm_test;
         comp1_h.preport();
         #1;
 
+        // dump the report server state
+        `uvm_info("NOTE", "EXAMPLE 09 : comp0_h dump the report server state", UVM_MEDIUM)
+        comp0_h.dump_report_state();
+        #1;
+
+        // dump the report server state after a reset
+        `uvm_info("NOTE", "EXAMPLE 10 : comp0_h dump the report server state after resetting back to defaults", UVM_MEDIUM)
+        comp0_h.reset_report_handler();
+        comp0_h.dump_report_state();
+        comp0_h.preport();
+        #1;       
+        
         phase.drop_objection(this, "run phase");
 
     endtask // main_phase
